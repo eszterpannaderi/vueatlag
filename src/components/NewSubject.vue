@@ -8,6 +8,8 @@
       <div class="row col-10 p-0">
         <div class="col-6 form-floating px-1">
           <input
+            ref="name"
+            autocomplete="off"
             type="text"
             class="form-control"
             id="floatingInput"
@@ -19,6 +21,7 @@
 
         <div class="col-3 form-floating px-1">
           <input
+            autocomplete="off"
             type="number"
             class="form-control"
             id="floatingInput"
@@ -29,6 +32,7 @@
         </div>
         <div class="col-3 form-floating px-1">
           <input
+            autocomplete="off"
             type="number"
             class="form-control"
             id="floatingPassword"
@@ -72,6 +76,7 @@ export default {
       this.subject.name = "";
       this.subject.credits = "";
       this.subject.mark = "";
+      this.$refs.name.focus();
     },
   },
 };
