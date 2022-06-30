@@ -1,10 +1,15 @@
 <template>
-  <div class="container">ok</div>
+  <div>
+    <new-subject></new-subject>
+  </div>
 </template>
 
 <script>
-export default {};
+import NewSubject from "./components/NewSubject.vue";
+export default {
+  name: "app",
+  components: { NewSubject },
+};
 </script>
 
-<style>
-</style>
+<style></style>
