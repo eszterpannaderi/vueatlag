@@ -82,6 +82,11 @@ export default {
       this.subject.mark = "";
 
       this.$refs.name.focus();
+      this.CalculateAverage();
+    },
+
+    CalculateAverage() {
+      store.commit("CalculateAverage");
     },
   },
 };

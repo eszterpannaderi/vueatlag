@@ -2,7 +2,8 @@ import { createStore } from 'vuex'
 
 export default createStore({
     state:{
-        subjects:[]
+        subjects:[],
+        average:0
     },
     getters:{},
     mutations:{
@@ -16,7 +17,26 @@ export default createStore({
             })
             console.log(state.subjects);
         },
+        CalculateAverage(state) {
+            let sumOfCredits = 0;
+            let sumOfMarks = 0;
+            state.subjects.forEach((subject) => {
+                sumOfCredits += subject.credits;
+                sumOfMarks += subject.credits * subject.mark;
+               
+            })
+            state.average = sumOfMarks / sumOfCredits;
+            console.log(state.average)
+            return state.average;
+            },
+
+         removeSubject(state,subject){
+            state.subjects.splice(state.subjects.indexOf(subject),1)
+        }
+
+       
         
 
     }
 })
+
