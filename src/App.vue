@@ -34,7 +34,7 @@ export default {
 body {
   margin: 0 !important;
   padding: 0 !important;
-  background: rgb(157, 203, 224);
+  background: rgb(159, 205, 226);
   background: linear-gradient(
     302deg,
     rgba(157, 203, 224, 1) 100%,
@@ -51,7 +51,7 @@ body {
   position: relative;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  color: white;
+  /* color: white; */
   overflow-x: hidden;
 }
 

@@ -47,10 +47,12 @@ export default {
   text-align: right;
   width: 15rem;
   color: white;
+  font-size: 14pt;
 }
 .buttonTrash {
   color: #f5764c;
   border: none;
+  font-size: 16pt;
 }
 
 .buttonTrash:hover {
@@ -65,7 +67,8 @@ export default {
   align-content: center;
   justify-content: center;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 200;
+  color: white;
 }
 </style>

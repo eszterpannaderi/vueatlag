@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-12">
-      <h1 class="display-6 text-center my-5">Féléves átlag</h1>
+      <h1 class="display-6 text-center text-light my-5">Féléves átlag</h1>
     </div>
 
     <div class="col-10 col-md-8 col-lg-6 mx-auto px-1 row">
