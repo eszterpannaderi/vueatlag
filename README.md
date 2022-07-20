@@ -1,8 +1,9 @@
-# default_vue_project
+# Átlag
 
 ## Project setup
 ```
 npm install
+npm i pinia
 ```
 
 ### Compiles and hot-reloads for development

@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-12">
-      <h1 class="display-4 text-center my-5">Féléves átlag</h1>
+      <h1 class="display-6 text-center my-5">Féléves átlag</h1>
     </div>
 
     <div class="col-10 col-md-8 col-lg-6 mx-auto px-1 row">
@@ -43,7 +43,7 @@
       </div>
       <button
         @click="saveSubject"
-        class="btn btn-primary my-auto h-100 w-90 col-3 my-3"
+        class="buttonDown my-auto h-100 w-90 col-3 my-3"
       >
         <i class="bi bi-arrow-down"></i>
       </button>
@@ -92,4 +92,18 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.buttonDown {
+  background-color: #f5764c;
+  border-radius: 5pt;
+  border: none;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.buttonDown:hover {
+  background-color: rgb(239, 91, 23);
+  border-radius: 5pt;
+  border: none;
+}
+</style>
